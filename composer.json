@@ -1,0 +1,30 @@
+{
+  "name": "magonex/module-datetime",
+  "description": "N/A",
+  "homepage": "https://www.magonex.com",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors":[
+    {
+      "name": "Magonex Group",
+      "email": "info@magonex.com",
+      "homepage": "https://www.magonex.com/",
+      "role": "developer"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magonex\\DateTime\\": ""
+    }
+  }
+}
