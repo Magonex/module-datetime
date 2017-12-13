@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\Framework\Stdlib\DateTime\Timezone" type="Magonex\DateJalali\Framework\Timezone"/>
+    <preference for="Magento\Framework\Stdlib\DateTime\Timezone" type="Magonex\DateTime\Framework\Timezone"/>
 </config>
